@@ -44,7 +44,7 @@ if __name__ == '__main__':
     start_time = datetime.now()
 
     # Load the input data
-    with open('/home/user_3/exam_d5data/ML/test.json') as f:
+    with open('./test.json') as f:
         input_data = json.load(f)
     # Parse the input data
     parse_data(input_data)
