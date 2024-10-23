@@ -50,4 +50,4 @@ for num in range(15):
             # print(values)
     print("******************page",str(num+1),"srapped******************")
 
-    df.to_csv(f'./scrapped_{keyWord}.csv')
+    df.to_csv(f'./crawler_{keyWord}.csv')
